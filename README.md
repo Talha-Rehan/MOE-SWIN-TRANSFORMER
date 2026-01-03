@@ -5,7 +5,14 @@
 1. **Navigate to the mmdetection directory:**
 ```bash
 cd MOE-SWIN-TRANSFORMER
+
+```
+
+```bash
 conda activate mmdet
+```
+
+```bash
 python tools/train.py configs/fire/faster-rcnn_swin-t_fpn_fire.py \
   --cfg-options \
     train_cfg.max_epochs=24 \
@@ -13,4 +20,4 @@ python tools/train.py configs/fire/faster-rcnn_swin-t_fpn_fire.py \
     optim_wrapper.optimizer.lr=5e-05
 ```
 
-![alt text](image.png)
+
