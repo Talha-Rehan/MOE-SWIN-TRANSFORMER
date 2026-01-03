@@ -73,3 +73,5 @@ __all__ = [
     'DetectionTransformer', 'ConditionalDETR', 'DINO', 'DABDETR', 'GLIP',
     'DDQDETR', 'GroundingDINO'
 ]
+from .faster_rcnn_moe import FasterRCNNMoE
+__all__ += ['FasterRCNNMoE']
